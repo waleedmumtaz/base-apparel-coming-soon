@@ -4,7 +4,6 @@
   let emailIsValid = true
 
   const validEmailCheck = (e) => {
-    // console.log('Here!')
     const email = e.target.email.value
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
